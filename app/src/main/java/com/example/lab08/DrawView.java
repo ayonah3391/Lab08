@@ -105,7 +105,7 @@ public class DrawView extends View {
         minutes = 90-minutes;
 
         hours = hours*6-minutes/60;
-        hours = 270-hours;
+        hours = 180-hours;
 
         invalidate();
     }
